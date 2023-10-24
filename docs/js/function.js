@@ -21,7 +21,7 @@
             $this.find("li > a").each(function () {
                 var currLink = $(this);
                 var refElement = $(currLink.attr("href"));
-                if (refElement.offset().top - 200 <= scrollPos && refElement.offset().top + refElement.height() > scrollPos) {
+                if (refElement.length && refElement.offset().top - 200 <= scrollPos && refElement.offset().top + refElement.height() > scrollPos) {
                     $this.find("li > a").removeClass("active");
                     currLink.addClass("active");
                 }

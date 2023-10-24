@@ -2,11 +2,11 @@
     About
 ====================================== */
 /*
-    Theme Name: ModernFolio
-    Theme URI: https://qodematrix.com/html/modernfolio/
+    Theme Name: Modernfolio
+    Theme URI: https://themesindustry.com/html/modernfolio/
     Author: QodeMatrix
-    Author URI: https://qodematrix.com
-    Description: Creative Personal Portfolio Resume
+    Author URI: https://www.themesindustry.com/
+    Description: Personal Portfolio Resume CV Template
  */
 
 
@@ -584,8 +584,7 @@ ul {
     height: 100%;
     position: relative;
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     align-items: center;
     justify-content: center;
     overflow: auto;
@@ -609,10 +608,9 @@ ul {
     font-size: 22px;
     font-weight: 700;
     max-width: 280px;
-    margin: 0 auto 50px;
 }
 
-.side-menu-content .side-menu-logo{
+.side-menu-content .side-bar-image{
     position: relative;
     display: block;
     width: 250px;
@@ -1044,6 +1042,8 @@ ul {
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .about-image-wrapper:after {
@@ -1977,7 +1977,7 @@ section#blog-detail{
 }
 
 .blog-comments-form .comment-form-btn{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 /*Side Bar Widgets*/
@@ -3311,6 +3311,10 @@ aside.widgets{
         width: 60%;
     }
 
+    .layout-6 .hero-image-inner.image-02 > img {
+        object-fit: cover;
+    }
+
     .layout-6 .hero-image-inner:nth-child(1) {
         left: 17.5%;
     }
@@ -3685,7 +3689,7 @@ aside.widgets{
     }
 
     /* Sidebar */
-    .side-menu-content .side-menu-logo{
+    .side-menu-content .side-bar-image{
         width: 200px;
         height: 215px;
     }

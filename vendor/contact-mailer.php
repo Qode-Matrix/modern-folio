@@ -105,7 +105,7 @@ if ($_POST) {
 
     //Recipients
     $mail->setFrom($user_Email, $user_Name);
-    $mail->addAddress($your_email, 'ModernFolio');     // Add a recipient
+    $mail->addAddress($your_email, 'Modernfolio');     // Add a recipient
     $mail->addReplyTo($your_email, 'Information');
 
 

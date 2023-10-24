@@ -327,7 +327,7 @@ ul.page-load-transition > li:not(:last-child):before{
     align-items: center;
     justify-content: center;
     gap: 20px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .btn-wrapper > .btn{
@@ -481,6 +481,7 @@ ul.page-load-transition > li:not(:last-child):before{
     padding: 0;
     align-items: center;
     justify-content: center;
+    color: #fff;
 }
 
 .feature-item .btn > i{
@@ -492,7 +493,7 @@ ul.page-load-transition > li:not(:last-child):before{
     border-radius: 50px;
     font-size: 10px;
     font-weight: bold;
-    background-color: var(--modernfolio-bg-alt-color);
+    background-color: var(--modernfolio-bg-third-color);
 }
 
 
