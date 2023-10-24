@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <!-- Author -->
+    <meta content="QodeMatrix" name="author">
+    <!-- description -->
+    <meta content="one page resume portfolio template documentation" name="description">
+    <!-- keywords -->
+    <meta content="documentation, clean, bootstrap responsive, html5, css3, portfolio, blog, studio, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, studio, masonry, grid, faq" name="keywords">
+    <!-- Page Title -->
+    <title>Documentation | ModernFolio HTML5 Template</title>
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+    <!--Vendor CSS-->
+    <link href="../vendor/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/css/line-icons.min.css" rel="stylesheet">
+    <!--Style CSS-->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav id="navbar" class="navbar navbar-classic">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-logo">
+                <img src="img/logo-default.png" alt="logo-default">
+            </a>
+            <div class="navbar-buttons">
+                <a href="https://themeforest.net/user/qodematrix/portfolio" target="_blank">Themes</a>
+                <a href="https://codecanyon.net/user/qodematrix/portfolio" target="_blank">Plugins</a>
+                <a href="https://support.qodematrix.com" target="_blank">Support</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--Side Area-->
+<aside class="left-nav-area">
+    <ul class="tab-list">
+        <li class="tab-item active">
+            <a href="#getting-started" class="tab-link">Getting Started
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </a>
+            <ul class="navbar-nav onepage-navigation">
+                <li class="nav-item"><a class="nav-link active" href="#installation">Installation</a></li>
+                <li class="nav-item"><a class="nav-link" href="#html-markup">HTML Structure</a></li>
+                <li class="nav-item"><a class="nav-link" href="#third-party-plugins">Third Party Plugins</a></li>
+                <li class="nav-item"><a class="nav-link" href="#page-transition">Page Transition</a></li>
+                <li class="nav-item"><a class="nav-link" href="#logo-settings">Logo Settings</a></li>
+                <li class="nav-item"><a class="nav-link" href="#changing-fonts">Changing Fonts</a></li>
+                <li class="nav-item"><a class="nav-link" href="#optimization-tips">Optimization Tips</a></li>
+            </ul>
+        </li>
+        <li class="tab-item">
+            <a href="#headers" class="tab-link">Headers
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </a>
+            <ul class="navbar-nav onepage-navigation">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#headers">Header Setup</a>
+                </li>
+            </ul>
+        </li>
+        <li class="tab-item">
+            <a href="#page-elements" class="tab-link">Page Elements
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </a>
+            <ul class="navbar-nav onepage-navigation">
+                <li class="nav-item"><a class="nav-link active" href="#page-title">Page Title</a></li>
+                <li class="nav-item"><a class="nav-link" href="#grid">Grid</a></li>
+                <li class="nav-item"><a class="nav-link" href="#helper-classes">Helper Classes</a></li>
+                <li class="nav-item"><a class="nav-link" href="#side-panel">Side Panel</a></li>
+            </ul>
+        </li>
+        <li class="tab-item">
+            <a href="#contact-form" class="tab-link">Contact Form
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </a>
+            <ul class="navbar-nav onepage-navigation">
+                <li class="nav-item"><a class="nav-link active" href="#simple-mail">Simple Mail</a></li>
+                <li class="nav-item"><a class="nav-link" href="#php-mailer">PHP Mailer</a></li>
+            </ul>
+        </li>
+        <li class="tab-item">
+            <a href="#credits" class="tab-link">Credits
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </a>
+            <ul class="navbar-nav onepage-navigation">
+                <li class="nav-item"><a class="nav-link active" href="#images">Images</a></li>
+                <li class="nav-item"><a class="nav-link" href="#jquery">Jquery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#css-and-fonts">CSS & Fonts</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</aside>
+
+<!--Main Content Area-->
+<main class="main-content-area">
+    <div class="container">
+    <div id="getting-started" class="tab-content active">
+        <!--Installation-->
+        <section id="installation">
+            <h2>Installation</h2>
+            <p>Follow the steps below to get started with your Site Template:</p>
+            <ol class="mb-0">
+                <li>Unzip the downloaded zip file <code>themeforest-xxxxx.zip</code> folder</li>
+                <li>Open folder named <code>main-file</code> </li>
+                <li>Here you will find folders of all templates and vendor folder</li>
+                <li>You will need to Upload these files to your Web Server using FTP in order to use it on your Website.</li>
+                <li>Below is the demonstration example of installation of theme:</li>
+                <ul>
+                    <li><code>vendor</code> - All plugins and elements used in templates are saved here</li>
+                    <li><code>css</code> - Extra Stylesheets Folder plus Main Stylesheet File</li>
+                    <li><code>img</code> - Images Folder</li>
+                    <li><code>js</code> - Javascript Folder</li>
+                    <li><code>.html</code> extension files - Inner pages Files</li>
+                </ul>
+                <li>You will need to Upload these files to your Web Server using FTP in order to use it on your Website and give the paths of files in <code>.html</code>
+                    extension files.
+                </li>
+                <li>You're now good to go..! Start adding your content and show off your brand new beautiful website in style.</li>
+            </ol>
+        </section>
+        <!--HTML MARKUP-->
+        <section id="html-markup">
+            <h2>HTML Structure</h2>
+            <p>Modernfolio follows a simple coding structure. here is the sample:</p>
+            <pre class="style-code">
+    &lt;!DOCTYPE html&gt;
+        &lt;html dir="ltr" lang="en"&gt;
+        &lt;head&gt;
+            <span class="comment-style">&lt;!-- All your metas will be here --&gt;</span>
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+            <span class="comment-style">&lt;!-- Your Stylesheets, Title--&gt;</span>
+            ...
+
+        &lt;/head&gt;
+        &lt;body&gt;
+
+            <span class="comment-style">&lt;!-- The Loader Before Site Load--&gt;</span>
+            &lt;div preloader-wrapper"&gt;
+            ....
+            &lt;/div&gt;
+
+             <span class="comment-style">&lt;!-- Navbar--&gt;</span>
+            &lt;aside&gt;
+                &lt;nav class="left-nav-area"&gt;
+                ...
+                &lt;/nav&gt;
+            &lt;/aside&gt;
+
+            <span class="comment-style">&lt;!-- Site Content--&gt;</span>
+            &lt;section&gt;
+                &lt;div class="container"&gt;
+                ...
+                &lt;/div&gt;
+            &lt;/section&gt;
+
+          <span class="comment-style">&lt;!-- Footer--&gt;</span>
+            &lt;footer&gt;
+                &lt;div class="container"&gt;
+                    ...
+                <span class="comment-style">&lt;!-- Copyrights--&gt;</span>
+                &lt;/div&gt;
+            &lt;/footer&gt;
+
+        <span class="comment-style">&lt;!-- Your All Scripts will be here--&gt;</span>
+        ...
+        &lt;/body&gt;
+    &lt;/html&gt;</pre>
+        </section>
+        <!--Third Party Plugins-->
+        <section id="third-party-plugins">
+            <h2>Third Party Plugins</h2>
+            <p>Please note that all common plugins are included in vendor folder. You can use any plugins from that folder by including them into your html files.</p>
+            <ul>
+                <li><code>Bootstrap 5</code></li>
+                <li><code>Line Icons</code></li>
+                <li><code>Swiper</code></li>
+                <li><code>Jquery</code></li>
+                <li><code>Transition JS</code></li>
+                <li><code>Jquery Appear</code></li>
+                <li><code>Tweenmax</code></li>
+            </ul>
+        </section>
+        <!--Page Transition-->
+        <section id="page-transition">
+            <h2>Page Loading Transitions</h2>
+            <p>You can show Interactive loaders to your Visitors while the Pages of your  Website loads in the background &amp; then Reveal show Interactive loaders to your Visitors while your Pages with CSS3 Transitions. Page Loading Transitions are enabled by default. To disable the Transition, you can simply remove <code>.page-load-transition</code> Class just after the <code>&lt;body&gt;</code> Tag.</p>
+            <pre class="style-code">
+    <span class="comment-style">&lt;!-- Page Load Transition --&gt;</span>
+    &lt;div class="preloader-wrapper"&gt;
+       &lt;div class="preloader">
+            &lt;div class="double-bounce-one">&lt;/div&gt;
+            &lt;div class="double-bounce-two">&lt;/div&gt;
+       &lt;/div&gt;
+    &lt;/div&gt;
+          </pre>
+        </section>
+        <!--Logo Settings-->
+        <section id="logo-settings">
+            <h2>Logo Settings</h2>
+            <p>The Logo Container can be found in the Header Container - <code>nav</code> tag</p>
+    <pre class="style-code">
+    <span class="comment-style">&lt;!-- Logo --&gt;</span>
+    &lt;a class="navbar-logo" href="#"&gt;&lt;img src="img/logo-default.png" alt="logo" title="logo-default"&gt;&lt;/a&gt;
+    </pre>
+        </section>
+        <!--Logo Settings-->
+        <section id="changing-fonts">
+            <h2>Changing Fonts</h2>
+            <p>Change your Fonts from Google Fonts Library directly if you plan to use a Google Font. You can find the Linking to the Font Files in the style.css file.</p>
+            <p>Change your Fonts from Google Fonts Library  directly if you plan to use a Google Font. You can find the Linking to the Font
+                Files in the <code>style.css</code>file.</p>
+            <pre class="style-code">    @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');</pre>
+            <pre class="style-code">    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');</pre>
+            <p>In order to change the Fonts, you will need to Edit the Above Links with your Custom Font, if you plan to use a Google Font or
+                Remove it completely if you plan to use a Self Hosted font. Here is an Example for using <a href="http://css-tricks.com/snippets/css/using-font-face/" target="_blank">Self Hosted Fonts</a>.</p>
+            <p>By default, Modernfolio uses two Fonts namely: <code>Syne </code> and <code>DM Sans</code> from the <a href="http://www.google.com/fonts" target="_blank">Google Fonts Library</a></p>
+        </section>
+        <!--Optimization-->
+        <section id="optimization-tips">
+            <h2>Website Optimization Tips</h2>
+            <p>A Fast &amp; Optimized Website has several factors which needs to be implemented in order to achieve the desired results. There are several Optimization Techniques available which will definitely affect your Website's Performance in a Positive Way &amp; we want to share a few of them with you:</p>
+            <h4>gZip Compression &amp; Browser Caching</h4>
+            <p>This is probably one of the Most Important Techniques you should definitely implement in order to bump up your Website's Loading Speed. <strong>gZip Compression</strong> is used to compress the Files that are delivered when loading a Website. It covers HTML, CSS, Javascript &amp; Font Files along with other miscellaneous text files. Where as <strong>Browser Caching</strong> also covers Images &amp; Videos apart from including the above files. This is used to saves the Static Data in your Browser itself so that when you open the Next Pages on the Same Website, the content does not gets Downloaded again, loading the Website fast.</p>
+            <p><strong>gZip Compression</strong> &amp; <strong>Browser Caching</strong> can be enabled using the <code>.htaccess</code> File on an Apache Web Server. You can use the Codes from here: <a href="https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess" target="_blank">https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess</a> to enable these modules on your server.</p>
+            <h4>Image Compression &amp; Optimization</h4>
+            <p>We tend to use Lots of Images on our Websites but we often do not make efforts to Compress &amp; Optimize them. Remember, the Larger the Image, the more time it takes to download and therefore this slows your website loading times affecting User Experience. Your customer will leave your website if it does not load within 3-5 Seconds which adversely affects your Sales. Therefore, it is important to Resize, Optimize &amp; Compress your Images before using it on your Website. Here are some Tips which might come handy in optimizing images:</p>
+            <ul>
+                <li><strong>Resize your Images:</strong> Resize your Images before using it on your Website. Do not just Download an Image &amp; place it as it is in your Website's <code>&lt;img&gt;</code> Tag without resizing it. The size/resolution of the Image matters since it is not recommended to use an Image size of <code>1200px</code> x <code>800px</code> in a Content Size of <code>300px</code> x <code>200px</code> as this is unnecessary. Resize it to <code>300px</code> x <code>200px</code></li>
+                <li><strong>Image Formats:</strong> There are three common file types that are used for web images which are JPEG, GIF, &amp; PNG. For images with a Flat Background use <strong>JPEG</strong> images, for images with a Transparent background use <strong>PNG</strong> images and for images with Animations use <strong>GIF</strong> images.</li>
+                <li><strong>Compressing Images:</strong> Images Compression is important as it considerably reduces the size without losing the quality. There are several FREE Image Optimization Tools available to Download.<br>
+                    <strong>For MAC</strong> use <a href="https://imageoptim.com/" target="_blank">ImageOptim</a><br>
+                    <strong>For Windows</strong> use <a href="http://luci.criosweb.ro/riot/" target="_blank">Riot</a> for compressing JPEG Images &amp; <a href="http://pnggauntlet.com/" target="_blank">PNG Gauntlet</a> for PNG Images.</li>
+            </ul>
+            <h4>CSS &amp; jQuery Minification</h4>
+            <p>It is also recommended that you <strong>Combine &amp; Minify</strong> all your CSS Files to a single CSS File &amp; all Javascript Files to a single JS File since <strong>Minification</strong> reduces the size of the File and <strong>Combining</strong> the files helps in reducing the number of HTTP requests made to the server. This is also an Important Factor in increasing the speed of your website. There are several tools available online to Minify your CSS &amp; JS Files. Our recommendations are:<br>
+            <strong>For CSS</strong> use <a href="http://cssminifier.com/" target="_blank">CSS Minifier</a> and <strong>For Javascript</strong> use <a href="http://javascript-minifier.com/" target="_blank">Javascript Minifier</a>.</p>
+            <h4>Content Delivery Network</h4>
+            <p>You can use a <strong>CDN</strong> to further speed up your website. You can use the CDN to deliver static files of your website like CSS, JS, Images &amp; Font Files. There are several CDN Hosting Providers available on the Internet but we would recommend <a href="https://www.maxcdn.com/" target="_blank">MaxCDN</a> or <a href="http://www.cloudflare.com/" target="_blank">CloudFlare</a>. <span class="label label-danger">Note:</span> CDN setup requires Extra monthly Fees to setup, so it is completely optional &amp; according to your needs.</p>
+            <h4>Fast Web Hosting Servers</h4>
+            <p>A lot depends on your Web Hosting Servers, so it is recommended that you choose a Hosting Company/Server that provides a Reliable &amp; a Fast Hosting Service. You can check out some recommended Hosting Services here: <a href="http://themeforest.net/get_hosting" target="_blank">http://themeforest.net/get_hosting</a>.</p>
+        </section>
+    </div>
+    <!--Headers-->
+    <div id="headers" class="tab-content">
+        <section id="header-setup">
+            <h2>Header Setup</h2>
+            <p>Setting up the header for your website is an essential step in creating an engaging user experience.</p>
+            <pre class="style-code">
+    &lt;aside class="left-nav-area"&gt;
+        &lt;nav id="navbar" class="navbar navbar-classic"&gt;
+            ...
+        &lt;/nav&gt;
+    &lt;/aside&gt;
+            </pre>
+        </section>
+    </div>
+    <!--Page Elements-->
+    <div id="page-elements" class="tab-content">
+        <!--Page Title-->
+        <section id="page-title">
+            <h2>Page Titles</h2>
+            <p>Default Page Title style with Text aligned Center.</p>
+            <pre class="style-code">
+    &lt;!--Page Banner--&gt;
+    &lt;div class="page-banner"&gt;
+        &lt;h2 class="page-banner-title"&gt;App Developers And Designers&lt;/h2&gt;
+        &lt;ul class="page-banner-breadcrumbs"&gt;
+            &lt;li&gt;&lt;a href="../index-classic.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="blog.html"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Blog Detail&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+            </pre>
+        </section>
+        <!--Bootstrap Grid-->
+        <section id="grid">
+            <h2>Bootstrap Grid</h2>
+            <p>Default grid that used in modernfolio theme</p>
+            <div class="show-grid row">
+                <div class="col-lg-1">.col-lg-1</div>
+                <div class="col-lg-1">.col-lg-1</div>
+                <div class="col-lg-1">.col-lg-1</div>
+                <div class="col-lg-1">.col-lg-1</div>
+                <div class="col-lg-1">.col-lg-1</div>
+                <div class="col-lg-1">.col-lg-1</div>
+                <div class="col-lg-1">.col-lg-1</div>
+                <div class="col-lg-1">.col-lg-1</div>
+                <div class="col-lg-1">.col-lg-1</div>
+                <div class="col-lg-1">.col-lg-1</div>
+                <div class="col-lg-1">.col-lg-1</div>
+                <div class="col-lg-1">.col-lg-1</div>
+            </div>
+            <div class="show-grid row">
+                <div class="col-lg-2">.col-lg-2</div>
+                <div class="col-lg-2">.col-lg-2</div>
+                <div class="col-lg-2">.col-lg-2</div>
+                <div class="col-lg-2">.col-lg-2</div>
+                <div class="col-lg-2">.col-lg-2</div>
+                <div class="col-lg-2">.col-lg-2</div>
+            </div>
+            <div class="show-grid row">
+                <div class="col-lg-3">.col-lg-3</div>
+                <div class="col-lg-3">.col-lg-3</div>
+                <div class="col-lg-3">.col-lg-3</div>
+                <div class="col-lg-3">.col-lg-3</div>
+            </div>
+            <div class="show-grid row">
+                <div class="col-lg-4">.col-lg-4</div>
+                <div class="col-lg-4">.col-lg-4</div>
+                <div class="col-lg-4">.col-lg-4</div>
+            </div>
+            <div class="show-grid row">
+                <div class="col-lg-5">.col-lg-5</div>
+                <div class="col-lg-5">.col-lg-5</div>
+                <div class="col-lg-2">.col-lg-2</div>
+            </div>
+            <div class="show-grid row">
+                <div class="col-lg-6">.col-lg-6</div>
+                <div class="col-lg-6">.col-lg-6</div>
+            </div>
+            <div class="show-grid row">
+                <div class="col-lg-1">.col-lg-1</div>
+                <div class="col-lg-11">.col-lg-11</div>
+            </div>
+            <div class="show-grid row">
+                <div class="col-lg-2">.col-lg-2</div>
+                <div class="col-lg-10">.col-lg-10</div>
+            </div>
+            <div class="show-grid row">
+                <div class="col-lg-3">.col-lg-3</div>
+                <div class="col-lg-9">.col-lg-9</div>
+            </div>
+            <div class="show-grid row">
+                <div class="col-lg-4">.col-lg-4</div>
+                <div class="col-lg-8">.col-lg-8</div>
+            </div>
+            <div class="show-grid row">
+                <div class="col-lg-5">.col-lg-5</div>
+                <div class="col-lg-7">.col-lg-7</div>
+            </div>
+        </section>
+        <!--Helper Classes-->
+        <section id="helper-classes">
+            <h2>Helper Classes & Variables</h2>
+            <p>We have created some really useful helper classes for you. Here are a few of them:</p>
+            <ul>
+                <li><code>.section-padding</code> - padding of <strong>120px</strong> on the top and bottom</li>
+                <li><code>.no-transition</code> - remove <strong>transition</strong> from the element</li>
+                <li><code>.btn</code> - pre design <strong>button</strong> styling according to theme</li>
+                <li><code>.btn.btn-text-only</code> - pre design <strong>button</strong> styling accordingly</li>
+                <li><code>.btn.btn-filled</code> - pre design <strong>button</strong> styling accordingly</li>
+                <li><code>.btn.btn-round</code> - add border radius to any <strong>button</strong></li>
+                <li><code>--modernfolio-primary-font</code> - to apply theme primary <strong>font</strong> to element </li>
+                <li><code>--modernfolio-alt-font</code> - to apply theme alternate <strong>font</strong> to element </li>
+                <li><code>--modernfolio-primary-color</code> - to apply theme primary <strong>color</strong> to element </li>
+                <li><code>--modernfolio-bg-primary-color</code> - to apply theme primary background <strong>color</strong> to element </li>
+                <li><code>--modernfolio-bg-alt-color</code> - to apply theme alternate background <strong>color</strong> to element </li>
+                <li><code>--modernfolio-bg-third-color</code> - to apply theme tertiary background <strong>color</strong> to element </li>
+                <li><code>--modernfolio-font-primary-color</code> - to apply theme font primary <strong>color</strong> to element </li>
+                <li><code>--modernfolio-font-alt-color</code> - to apply theme font alt <strong>color</strong> to element </li>
+            </ul>
+        </section>
+        <!--Side Panel-->
+        <section id="side-panel">
+            <h2>Side Panel</h2>
+            <p>You can add a revealable Side Panel on your Website with Additional Information about your Website. here we are giving you a demo with all possible information, Simply use the Code below:</p>
+            <pre class="style-code">
+    &lt;aside class="widgets"&gt;
+        &lt;!--Search--&gt;
+        &lt;div class="widget widget-search"&gt;
+            &lt;form class="widget-search-form" action="#."&gt;
+                &lt;label&gt;&lt;input class="form-control" placeholder="Search.." type="text"&gt;&lt;/label&gt;
+                &lt;button type="button" class="search-form-btn"&gt;
+                    &lt;i class="lni lni-search-alt" aria-hidden="true"&gt;&lt;/i&gt;
+                &lt;/button&gt;
+            &lt;/form&gt;
+        &lt;/div&gt;
+        &lt;!--Category Widget--&gt;
+        &lt;div class="widget widget-category"&gt;
+            &lt;h4 class="title"&gt;Category&lt;/h4&gt;
+            &lt;span class="animated-separator"&gt;&lt;/span&gt;
+            &lt;ul class="widget-category-list"&gt;
+                &lt;li&gt;&lt;a href="blog.html"&gt;Designing & Planing&lt;/a&gt;&lt;span class="post-count"&gt;1&lt;/span&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="blog.html"&gt;Web Designing&lt;/a&gt;&lt;span class="post-count"&gt;3&lt;/span&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="blog.html"&gt;Graphic Designing&lt;/a&gt;&lt;span class="post-count"&gt;2&lt;/span&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="blog.html"&gt;App Designing&lt;/a&gt;&lt;span class="post-count"&gt;5&lt;/span&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;!--Tags Widget--&gt;
+        &lt;div class="widget widget-tags"&gt;
+            &lt;h4 class="title"&gt;Tags&lt;/h4&gt;
+            &lt;span class="animated-separator"&gt;&lt;/span&gt;
+            &lt;ul class="widget-tags-list"&gt;
+                &lt;li&gt;&lt;a href="blog.html"&gt;WordPress&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="blog.html"&gt;HTML&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="blog.html"&gt;CSS&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="blog.html"&gt;Graphic Designing&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="blog.html"&gt;Theme Develop&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="blog.html"&gt;Audio&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="blog.html"&gt;Photography&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="blog.html"&gt;Plugin&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;!--Recent Post--&gt;
+        &lt;div class="widget widget-recent-posts"&gt;
+            &lt;h4 class="title"&gt;Recent Post&lt;/h4&gt;
+            &lt;span class="animated-separator"&gt;&lt;/span&gt;
+            &lt;div class="widget-recent-post"&gt;
+                &lt;h5 class="post-title"&gt;&lt;a href="blog.html"&gt;World’s most famous app & web designers&lt;/a&gt;&lt;/h5&gt;
+                &lt;span class="post-date"&gt;Jan 10, 2023&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class="widget-recent-post"&gt;
+                &lt;h5 class="post-title"&gt;&lt;a href="blog.html"&gt;Approach to creating modern designs&lt;/a&gt;&lt;/h5&gt;
+                &lt;span class="post-date"&gt;Jan 10, 2023&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class="widget-recent-post"&gt;
+                &lt;h5 class="post-title"&gt;&lt;a href="blog.html"&gt;The power of graphic design in society&lt;/a&gt;&lt;/h5&gt;
+                &lt;span class="post-date"&gt;Jan 10, 2023&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/aside&gt;
+            </pre>
+        </section>
+    </div>
+    <!--Contact Form-->
+    <div id="contact-form" class="tab-content">
+        <!--Simple Contact Form-->
+        <section id="#simple-mail">
+            <h2>Simple Mail</h2>
+            <p>Go to the <code>vendor folder</code> in contact-mailer.php file you need to replace your email with existing one at line no 14. </p>
+    <pre class="style-code">    $your_email = "user@website.com";</pre>
+        </section>
+        <!--Contact Form with PHP Mailer-->
+        <section id="#php-mailer">
+            <h2>Contact Form with PHP Mailer</h2>
+            <p>In case the above simple mail settings doesn't work for you then please go to the <code>vendor folder</code> in contact-mailer.php file you need to uncomment this code from line 270 to line 276. and  change your username with your email and your password with your provided password. and also you need to change your <code>SMTP</code> according to your hosting provider</p>
+<pre class="style-code">
+$mail->isSMTP();                                            // Send using SMTP
+$mail->Host       = 'smtp.yourwebsite.com';                    // Set the SMTP server to send through
+$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+$mail->Username   = 'user@yourwebsite.com';                     // SMTP username
+$mail->Password   = 'your password';                         // SMTP password
+$mail->SMTPSecure = 'TLS';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
+$mail->Port       = 587;                                    // TCP port</pre>
+        </section>
+    </div>
+    <!--Credits-->
+    <div id="credits" class="tab-content">
+        <section id="images">
+            <h2>Images & Videos</h2>
+            <ul>
+                <li><a href="http://thestocks.im/" target="_blank" title="The Stocks">The Stocks</a></li>
+                <li><a href="http://unsplash.com/" target="_blank" title="Unsplash">Unsplash</a></li>
+                <li><a href="https://www.freepik.com/" target="_blank" title="Freepik">Freepik</a></li>
+                <li><a href="http://www.raumrot.com" target="_blank" title="RaumRot">RaumRot</a></li>
+                <li><a href="http://picjumbo.com/" target="_blank" title="Picjumbo">Picjumbo</a></li>
+                <li><a href="http://stockphotos.io/" target="_blank">Stockphotos.io</a></li>
+                <li><a href="http://www.imcreator.com/free" target="_blank" title="Imcreator FREE">Imcreator FREE</a></li>
+                <li><a href="https://www.flickr.com/creativecommons/by-2.0/" target="_blank" title="Flickr CC-Search">Flickr CC-Search</a></li>
+                <li><a href="http://mazwai.com/" target="_blank" title="Flickr CC-Search">Mazwai</a> (Stock Footage)</li>
+            </ul>
+        </section>
+        <section id="jquery">
+            <h2>JQuery</h2>
+            <ul>
+                <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap 5</a></li>
+                <li><a href="http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848" target="_blank">Revolution Slider</a></li>
+                <li><a href="https://swiperjs.com/" target="_blank">Swiper</a></li>
+                <li><a href="https://codecanyon.net/item/cube-portfolio-responsive-jquery-grid-plugin/6372959" target="_blank">Cube Portfolio</a></li>
+                <li><a href="https://developers.google.com/maps/web/" target="_blank">Google Map api</a></li>
+            </ul>
+        </section>
+        <section id="css-and-fonts">
+            <h2>CSS & Fonts</h2>
+            <ul>
+                <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap 5</a></li>
+                <li><a href="http://daneden.github.io/animate.css/" target="_blank">Animation</a></li>
+                <li><a href="https://lineicons.com/icons/" target="_blank">Line Icons</a></li>
+                <li><a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>
+                    <ul>
+                        <li>Syne</li>
+                        <li>DM+Sans</li>
+                    </ul>
+                </li>
+                <li><a href="https://swiperjs.com//#.WNEdufLIbE8" target="_blank">Swiper</a></li>
+                <li><a href="https://codecanyon.net/item/cube-portfolio-responsive-jquery-grid-plugin/6372959" target="_blank">Cube Portfolio</a></li>
+            </ul>
+        </section>
+    </div>
+    </div>
+</main>
+
+
+<!--Vendor JS-->
+<script src="js/jquery-3.6.4.min.js"></script>
+<!--Function JS-->
+<script src="js/function.js"></script>
+</body>
+</html>

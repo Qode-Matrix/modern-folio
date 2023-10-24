@@ -1,0 +1,304 @@
+/* ===================================
+    Google Font
+====================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+/* ===================================
+    General
+====================================== */
+
+:root{
+    --modernfolio-primary-color: #E6E4BF;
+    --modernfolio-bg-primary-color: #FFFCF3;
+    --modernfolio-bg-alt-color: #F4F1E4;
+    --modernfolio-bg-third-color: #E9E7D3;
+    --modernfolio-font-primary-color: #575757;
+    --modernfolio-font-alt-color: #131313;
+    --modernfolio-primary-font: 'DM Sans', sans-serif;
+    --modernfolio-alt-font: 'Syne', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--modernfolio-primary-font);
+    font-size: 16px;
+    color: #575757;
+    font-weight: 300;
+    line-height: 1.8;
+    width: 100%;
+    background-color: var(--modernfolio-bg-primary-color);
+    overflow-x: hidden;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: var(--modernfolio-alt-font);
+    color: var(--modernfolio-font-alt-color);
+    font-weight: 700;
+    margin: 0 0 30px;
+}
+
+p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form {
+    margin-bottom: 30px;
+}
+
+ol ul {
+    margin: 10px 0;
+}
+
+blockquote {
+    position: relative;
+    margin: 1.5rem 0;
+    padding: 30px;
+    background-color: var(--modernfolio-bg-alt-color);
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-family: var(--modernfolio-alt-font);
+    font-weight: 600;
+}
+
+section {
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.btn.focus, .btn:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+p:last-child{
+    margin-bottom: 0 !important;
+}
+
+a:active, a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.no-transition{
+    transition-timing-function: initial;
+    -moz-transition-timing-function: initial;
+    -webkit-transition-timing-function: initial;
+    -o-transition-timing-function: initial;
+    -ms-transition-timing-function: initial;
+    transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -webkit-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+}
+
+.line{
+    clear: both;
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+    border-top: 1px solid #EEE;
+}
+
+/* ===================================
+    Navbar
+====================================== */
+
+.navbar-classic{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 99;
+    background-color: var(--modernfolio-bg-primary-color);
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-classic > .container-fluid{
+    padding: 0 30px;
+}
+
+.navbar-logo{
+    display: inline-block;
+}
+
+.navbar-classic > .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-buttons{
+    display: inline-flex;
+    gap: 30px;
+    color: #575757;
+}
+
+.navbar-buttons a{
+    color: #575757;
+}
+
+/* ===================================
+   Side Area
+====================================== */
+
+.left-nav-area {
+    width: 300px;
+    height: 100vh;
+    background-color: var(--modernfolio-bg-alt-color);
+    position: fixed;
+    top: 65px;
+    left: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.left-nav-area .navbar-logo{
+    display: flex;
+    align-items: center;
+}
+
+.left-nav-area .navbar-logo > img{
+    width: auto;
+}
+
+ul.tab-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+
+ul.tab-list > li > a{
+    font-family: var(--modernfolio-alt-font);
+    color: var(--modernfolio-font-alt-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+ul.tab-list > li > a:hover,ul.tab-list > li > a:focus{
+    text-decoration: none;
+}
+
+ul.tab-list > li > a > svg{
+    width: 25px;
+    height: 25px;
+    padding: 7px;
+    transition: all 0.3s ease-in-out;
+}
+
+ul.tab-list > li.active > a > svg{
+    transform: rotate(180deg);
+}
+
+ul.tab-list .navbar-nav{
+    padding: 5px 0 5px 20px;
+}
+
+ul.tab-list > li:not(.active) .navbar-nav {
+    display: none;
+}
+
+ul.tab-list .navbar-nav > li > a{
+    padding: 5px;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+ul.tab-list .navbar-nav > li > a:hover,ul.tab-list .navbar-nav > li > a:focus{
+    text-decoration: none;
+}
+
+ul.tab-list .navbar-nav > li > a.active{
+    font-weight: 500;
+}
+
+/* ===================================
+   Main Content Area
+====================================== */
+
+.main-content-area {
+    position: relative;
+    width: 100%;
+    margin-left: 300px;
+    max-width: calc(100% - 300px);
+    padding: 0 50px;
+    margin-top: 65px;
+}
+
+.tab-content:not(.active){
+    display: none;
+}
+
+.main-content-area .tab-content > section{
+    border-top: 1px solid #EEE;
+}
+
+pre.style-code{
+    background-color: var(--modernfolio-bg-alt-color);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+pre.style-code .comment-style{
+    color: #a9a8a4;
+}
+
+.show-grid{
+    margin: 0;
+    background-color: var(--modernfolio-bg-alt-color);
+}
+
+.show-grid [class^=col-], .show-grid [class^=col_] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .left-nav-area {
+        display: none;
+    }
+
+    .main-content-area{
+        max-width: 100%;
+        left: 0;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .tab-content:not(.active) {
+        display: block;
+    }
+
+    .navbar-buttons {
+        gap: 15px;
+     }
+
+}
