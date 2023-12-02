@@ -720,7 +720,7 @@ ul {
 
 .social-wrapper .social-text{
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .social-wrapper ul.social-list{
@@ -2627,19 +2627,19 @@ aside.widgets{
 
 .layout-6 .hero-image-inner:nth-child(1) {
     top: -4vw;
-    left: 20.5%;
-    -webkit-transform: rotate(-6deg);
-    -ms-transform: rotate(-6deg);
-    transform: rotate(-6deg);
+    left: 20%;
+    -webkit-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    transform: rotate(-8deg);
     -webkit-transform-origin: right top;
     -ms-transform-origin: right top;
     transform-origin: right top;
 }
 
 .layout-6 .hero-image-wrap:hover .hero-image-inner:nth-child(1){
-    -webkit-transform: translateX(-8%) rotate(-12deg);
-    -ms-transform: translateX(-8%) rotate(-12deg);
-    transform: translateX(-8%) rotate(-12deg);
+    -webkit-transform: translateX(-8%) rotate(-13deg);
+    -ms-transform: translateX(-8%) rotate(-13deg);
+    transform: translateX(-8%) rotate(-13deg);
 }
 
 .layout-6 .hero-image-inner:nth-child(2) {
@@ -2669,6 +2669,7 @@ aside.widgets{
 
 .layout-6 .hero-image-inner.image-01 > img{
     object-fit: cover;
+    object-position: center center;
 }
 
 .layout-6 .hero-image-inner.image-02 > img{
